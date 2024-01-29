@@ -54,5 +54,4 @@ class FlightFilterTests {
         }
         return groundTime;
     }
-    
-}
+    }

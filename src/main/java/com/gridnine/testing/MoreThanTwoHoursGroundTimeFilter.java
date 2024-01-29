@@ -19,5 +19,4 @@ public class MoreThanTwoHoursGroundTimeFilter implements FlightFilter {
         }
         return groundTime;
     }
-
 }

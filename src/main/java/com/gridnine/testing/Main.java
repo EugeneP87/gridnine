@@ -24,5 +24,4 @@ public class Main {
         System.out.println("\nFlights filtered by more than two hours ground time:");
         moreThanTwoHoursGroundTimeList.forEach(System.out::println);
     }
-
 }

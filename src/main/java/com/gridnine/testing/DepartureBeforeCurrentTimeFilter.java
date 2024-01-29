@@ -13,5 +13,4 @@ public class DepartureBeforeCurrentTimeFilter implements FlightFilter {
                         .allMatch(segment -> segment.getDepartureDate().isAfter(currentTime)))
                 .collect(Collectors.toList());
     }
-
 }
